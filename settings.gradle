@@ -1,0 +1,1 @@
+include ':app', ':lib', ':apache-commons-codec-1.4', ':apache-commons-codec-1.3'

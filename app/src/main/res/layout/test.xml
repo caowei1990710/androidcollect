@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/noti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开启通知" />
+
+        <Button
+            android:id="@+id/begin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开启服务" />
+
+
+        <Button
+            android:id="@+id/webchat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信收录" />
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信收录" />
+        <TextView
+            android:id="@+id/times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信收录" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/selects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询数据" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更新数据" />
+
+        <Button
+            android:id="@+id/insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="插入数据" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="id" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="付款时间" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="前余额" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="金额" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="后余额" />
+    </LinearLayout>
+
+    <ListView
+        android:background="@android:color/background_light"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ListView>
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"></WebView>
+</LinearLayout>

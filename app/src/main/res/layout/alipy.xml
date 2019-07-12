@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/noti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开启通知" />
+
+        <Button
+            android:id="@+id/begin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开启服务" />
+
+
+        <Button
+            android:id="@+id/webchat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信收录"
+            android:visibility="gone"
+           />
+
+        <Button
+            android:id="@+id/ailipy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付宝收录" />
+
+        <Button
+            android:id="@+id/qr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二维码"
+            android:visibility="gone" />
+        <!--<TextView-->
+        <!--android:id="@+id/count"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="微信收录" />-->
+        <!--<TextView-->
+        <!--android:id="@+id/times"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="微信收录" />-->
+    </LinearLayout>
+    <!--<TextView-->
+    <!--android:id="@+id/state"-->
+    <!--android:text="hardy"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/plat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/nowmoney"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/bankcard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="启用" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/statechange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+
+        <Button
+            android:id="@+id/change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="切换" />
+        <Button
+            android:id="@+id/reflush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刷新" />
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="提醒限额:"/>
+        <EditText
+            android:id="@+id/limit"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:text="3000"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/network"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"></android.support.v7.widget.AppCompatSpinner>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版本号"/>
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

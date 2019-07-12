@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">自动收录系统</string>
+    <string name="main_name">抢红包</string>
+    <string name="accessibility_description">启动抢红包服务，支持微信。</string>
+    <string name="service_name">CodeBoy抢红包</string>
+    <string name="open_service_title">需要开启辅助服务正常使用</string>
+    <string name="open_service_button">打开辅助服务</string>
+    <string name="open_notify_service">打开通知栏服务</string>
+    <string name="check_update">检查更新</string>
+    <string name="share">分享</string>
+    <string name="tips">找到[CodeBoy抢红包]，然后开启服务即可</string>
+    <string name="qq_settings">QQ设置</string>
+    <string name="wechat_settings">微信设置</string>
+    <string name="notify_settings">红包提醒设置</string>
+
+    <string name="follow_preference_title">关注codeboy微信</string>
+    <string name="follow_preference_summary">了解我最新的开源资讯动态</string>
+
+    <string name="donate_title">打赏开发者</string>
+    <string name="donate_summary">如果这份源码能帮到你，可以打赏我哦</string>
+
+    <string name="after_open_hongbao">拆红包</string>
+    <string name="after_open_see">看看大家的手气(仅支持微信6.3.8版本以下)</string>
+    <string name="after_open_none">静静地看着</string>
+
+    <string name="after_get_back_home">返回桌面</string>
+    <string name="after_get_none">静静地看着</string>
+
+    <string name="wx_mode_0">自动抢</string>
+    <string name="wx_mode_1">抢单聊红包，群聊红包只通知</string>
+    <string name="wx_mode_2">抢群聊红包，单聊红包只通知</string>
+    <string name="wx_mode_3">通知手动抢(防封号)</string>
+
+    <string name="about_title">关于CodeBoy抢红包</string>
+    <string name="about_url">http://www.happycodeboy.com/index.php/archives/10/</string>
+
+    <string name="agreement_title">免责声明</string>
+    <string name="agreement_message">本软件仅供学习使用，完全模拟人工操作，抢红包速度取决于你手机的性能与网络，不涉及任何第三方软件接口，本软件已开放源代码，无病毒、不收集用户隐私信息，禁止使用本软件参与赌博活动。一切因使用“%1$s”造成的任何后果，%1$s概不负责，亦不承担任何法律责任!</string>
+
+    <string name="qr_wx_id">happycodeboy</string>
+    <string name="qr_tips">点击复制微信号:happycodeboy</string>
+    <string-array name="spingarr">
+        <item>ips下发</item>
+        <item>cashout</item>
+    </string-array>
+
+    <style name="dialog_style" parent="Theme.AppCompat.Dialog">
+
+        <!--是否悬浮在activity上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--透明是否-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">#82858b</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- AXIS  -->
+    <!--
+      Source: When the user pressed a key combo while exploring a web page.
+      Description: Announced when the user changes the granularity of reading a web page to character. [CHAR LIMIT="NONE"]
+    -->
+    <string name="axis_character">Navigate by character.</string>
+    <!--
+      Source: When the user pressed a key combo while exploring a web page.
+      Description: Announced when the user changes the granularity of reading a web page to word. [CHAR LIMIT="NONE"]
+    -->
+    <string name="axis_word">Navigate by word.</string>
+    <!--
+      Source: When the user pressed a key combo while exploring a web page.
+      Description: Announced when the user changes the granularity of reading a web page to sentence. [CHAR LIMIT="NONE"]
+    -->
+    <string name="axis_sentence">Navigate by sentence.</string>
+    <!--
+      Source: When the user pressed a key combo while exploring a web page.
+      Description: Announced when the user changes the granularity of reading a web page to heading. [CHAR LIMIT="NONE"]
+    -->
+    <string name="axis_heading">Navigate by heading.</string>
+    <!--
+      Source: When the user pressed a key combo while exploring a web page.
+      Description: Announced when the user changes the granularity of reading a web page to sibling. [CHAR LIMIT="NONE"]
+    -->
+    <string name="axis_sibling">Navigate by sibling.</string>
+    <!--
+      Source: When the user pressed a key combo while exploring a web page.
+      Description: Announced when the user changes the granularity of reading a web page to parent first child. This
+      axis is deprecated so this string is not translated. [CHAR LIMIT="NONE"]
+    -->
+    <string name="axis_parent_first_child" translatable="false">Navigate by parent first child.</string>
+    <!--
+      Source: When the user pressed a key combo while exploring a web page.
+      Description: Announced when the user changes the granularity of reading a web page to document. [CHAR LIMIT="NONE"]
+    -->
+    <string name="axis_document">Navigate by document.</string>
+    <!--
+      Source: When the user pressed a key combo while exploring a web page.
+      Description: Announced when the user changes the granularity of reading a web page to the default webview behavior. [CHAR LIMIT="NONE"]
+    -->
+    <string name="axis_default_web_view_behavior">Navigate by default web view behavior.</string>
+
+    <!-- Announced when the user changes reading mode to read an entire object at a time. -->
+    <string name="granularity_default">Default</string>
+    <!-- Announced when the user changes reading mode to read a single character at a time. -->
+    <string name="granularity_character">Characters</string>
+    <!-- Announced when the user changes reading mode to read a single word at a time. -->
+    <string name="granularity_word">Words</string>
+    <!-- Announced when the user changes reading mode to read a single line at a time. -->
+    <string name="granularity_line">Lines</string>
+    <!-- Announced when the user changes reading mode to read a single paragraph at a time. -->
+    <string name="granularity_paragraph">Paragraphs</string>
+    <!-- Announced when the user changes reading mode to read a single page at a time. -->
+    <string name="granularity_page">Pages</string>
+    <!-- Announced when the user changes reading mode in web content to read a single section at a time. -->
+    <string name="granularity_web_section">Headings and Landmarks</string>
+    <!-- Announced when the user changes reading mode in web content to read a single list at a time. -->
+    <string name="granularity_web_list">Lists</string>
+    <!-- Announced when the user changes reading mode in web content to read a single link at a time. -->
+    <string name="granularity_web_link">Links</string>
+    <!-- Announced when the user changes reading mode in web content to read a single control at a time. A control is an element on a web page which is either a form field (buttons, text fields, combo boxes, etc) or a link. -->
+    <string name="granularity_web_control">Controls</string>
+    <!-- Announced when the user enters into navigating specialized web content such as tables or math. -->
+    <string name="granularity_pseudo_web_special_content">Special content</string>
+
+    <!-- Announced when the device's screen changes to portrait orientation. -->
+    <string name="orientation_portrait">Portrait</string>
+    <!-- Announced when the device's screen changes to landscape orientation. -->
+    <string name="orientation_landscape">Landscape</string>
+
+    <!-- Label for a shortcut that is not assigned and does nothing. [CHAR_LIMIT=40] -->
+    <string name="shortcut_unassigned">Unassigned</string>
+    <!-- Label for the shortcut that moves accessibility focus to the next item. [CHAR_LIMIT=40] -->
+    <string name="shortcut_next">Next item</string>
+    <!-- Label for the shortcut that moves accessibility focus to the previous item. [CHAR_LIMIT=40] -->
+    <string name="shortcut_previous">Previous item</string>
+    <!-- Label for the shortcut that tries to scroll current view forward. [CHAR_LIMIT=40] -->
+    <string name="shortcut_scroll_forward">Scroll forward</string>
+    <!-- Label for the shortcut that tries to scroll current view back. [CHAR_LIMIT=40] -->
+    <string name="shortcut_scroll_back">Scroll back</string>
+    <!-- Label for the shortcut that activates the Back button. [CHAR_LIMIT=40] -->
+    <string name="shortcut_back">Back button</string>
+    <!-- Label for the shortcut that activates the Home button. [CHAR_LIMIT=40] -->
+    <string name="shortcut_home">Home button</string>
+    <!-- Label for the shortcut that activates the Overview button. [CHAR_LIMIT=40] -->
+    <string name="shortcut_overview">Overview button</string>
+    <!-- Label for the shortcut that opens the notifications shade. [CHAR_LIMIT=40] -->
+    <string name="shortcut_notifications">Open notifications</string>
+    <!-- Label for the shortcut that opens the custom action menu. [CHAR_LIMIT=40] -->
+    <string name="shortcut_show_custom_actions">Show custom actions</string>
+    <!-- Label for the shortcut that opens the global context breakout menu [CHAR_LIMIT=50] -->
+    <string name="shortcut_talkback_breakout">Open global context menu</string>
+    <!-- Label for the shortcut that opens the local context breakout menu [CHAR_LIMIT=50] -->
+    <string name="shortcut_local_breakout">Open local context menu</string>
+    <!-- Label for the shortcut that repeats aloud the last thing that TalkBack spoke as a result of user action. [CHAR_LIMIT=50] -->
+    <string name="shortcut_repeat_last_utterance">Repeat last utterance</string>
+    <!-- Label for the shortcut that spells aloud the last thing that TalkBack spoke aloud. [CHAR_LIMIT=50] -->
+    <string name="shortcut_spell_last_utterance">Spell last utterance</string>
+    <!-- Label for the shortcut that copies  the last thing TalkBack spoke to clipboard [CHAR_LIMIT=none] -->
+    <string name="shortcut_copy_last_utterance_to_clipboard">Copy last utterance to clipboard</string>
+    <!-- Label for the shortcut that pauses all feedback from TalkBack. [CHAR_LIMIT=40] -->
+    <string name="shortcut_pause_feedback">Pause feedback</string>
+    <!-- Label for menu item that reads all on-screen content, starting from the top of the screen. [CHAR_LIMIT=40] -->
+    <string name="shortcut_read_from_top">Read from top</string>
+    <!-- Label for menu item that reads all on-screen content, starting from the next item. [CHAR_LIMIT=40] -->
+    <string name="shortcut_read_from_current">Read from next item</string>
+    <!-- Label for the shortcut that prints the node tree to LogCat. [CHAR_LIMIT=40] -->
+    <string name="shortcut_print_node_tree">Print node tree</string>
+    <!-- Label for the shortcut that changes to the next navigation setting -->
+    <string name="shortcut_next_granularity">Next navigation setting</string>
+    <!-- Label for the shortcut that changes to the previous navigation setting -->
+    <string name="shortcut_previous_granularity">Previous navigation setting</string>
+    <!-- Label for the shortcut that will move focus to the first item on the screen -->
+    <string name="shortcut_first_in_screen">Focus first item on screen</string>
+    <!-- Label for the shortcut that will move focus to the last item on the screen -->
+    <string name="shortcut_last_in_screen">Focus last item on screen</string>
+    <!-- Label for the shortcut that will dim the screen -->
+    <string name="shortcut_enable_dimming">Dim screen</string>
+    <!-- Label for the shortcut that will disable screen dimming and make the screen visible -->
+    <string name="shortcut_disable_dimming">Undim screen</string>
+
+    <!-- Title for dialog with actions related to currently focused item -->
+    <string name="local_context_menu_title">Local Context Menu</string>
+    <!-- Title for dialog with general TalkBack actions -->
+    <string name="global_context_menu_title">Global Context Menu</string>
+
+    <!-- Label for the local breakout menu when it contains no other items. -->
+    <string name="title_local_breakout_no_items">No menu items.</string>
+    <!-- Label for the menu item to move to the next section within web content. [CHAR_LIMIT=40] -->
+    <string name="title_web_breakout_next_section">Next section</string>
+    <!-- Label for the menu item to move to the next list within web content. [CHAR_LIMIT=40] -->
+    <string name="title_web_breakout_next_list">Next list</string>
+    <!-- Label for the menu item to move to the next control within web content. [CHAR_LIMIT=40] -->
+    <string name="title_web_breakout_next_control">Next control</string>
+    <!-- Label for the menu item to move to the previous section within web content. [CHAR_LIMIT=40] -->
+    <string name="title_web_breakout_prev_section">Previous section</string>
+    <!-- Label for the menu item to move to the previous list within web content. [CHAR_LIMIT=40] -->
+    <string name="title_web_breakout_prev_list">Previous list</string>
+    <!-- Label for the menu item to move to the previous control within web content. [CHAR_LIMIT=40] -->
+    <string name="title_web_breakout_prev_control">Previous control</string>
+    <!-- Label for the local breakout menu containing controls for navigating editable text content. [CHAR_LIMIT=40] -->
+    <string name="title_edittext_controls">Cursor control</string>
+    <!-- Label for the menu item to move the cursor to the beginning of editable text content. [CHAR_LIMIT=40] -->
+    <string name="title_edittext_breakout_move_to_beginning">Move cursor to beginning</string>
+    <!-- Label for the menu item to move the cursor to the end of editable text content. [CHAR_LIMIT=40] -->
+    <string name="title_edittext_breakout_move_to_end">Move cursor to end</string>
+    <!-- Label for the menu item to start text selection mode. [CHAR_LIMIT=40] -->
+    <string name="title_edittext_breakout_start_selection_mode">Start selection mode</string>
+    <!-- Label for the menu item to end text selection mode. [CHAR_LIMIT=40] -->
+    <string name="title_edittext_breakout_end_selection_mode">End selection mode</string>
+    <!-- Label for the local breakout menu containing controls for navigating within a ViewPager control. [CHAR_LIMIT=40] -->
+    <string name="title_viewpager_controls">Page navigation</string>
+    <!-- Label for the menu item to move to the next page within a ViewPager control. [CHAR_LIMIT=40] -->
+    <string name="title_viewpager_breakout_next_page">Next page</string>
+    <!-- Label for the menu item to move to the previous page within a ViewPager control. [CHAR_LIMIT=40] -->
+    <string name="title_viewpager_breakout_prev_page">Previous page</string>
+    <!-- Label for the local breakout menu containing controls for managing user defined labels for unlabeled items [CHAR_LIMIT=40] -->
+    <string name="title_labeling_controls">Labels</string>
+    <!-- Label for the menu item that lets the user quickly navigate through all on-screen items. [CHAR_LIMIT=40] -->
+    <string name="title_summary">Quick navigation</string>
+    <string name="title_activity_demo">DemoActivity</string>
+    <!--给dialog添加的动画效果,可选-->
+</resources>
